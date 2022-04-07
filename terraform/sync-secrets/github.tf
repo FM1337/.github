@@ -7,7 +7,7 @@ module "base" {
     isTemplate = false
     isFork     = false
     isEmpty    = false
-    name       = ["cc_inject"]
+    topics     = "secrets-sync"
   }
 }
 

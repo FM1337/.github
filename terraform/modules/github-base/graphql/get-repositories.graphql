@@ -40,6 +40,13 @@
         pushedAt
         url
         createdAt
+        repositoryTopics(first: 20) {
+          nodes {
+            topic {
+              name
+            }
+          }
+        }
       }
     }
     name
